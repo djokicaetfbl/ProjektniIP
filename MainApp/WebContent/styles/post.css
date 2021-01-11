@@ -1,0 +1,73 @@
+body{margin-top:20px;}
+
+.comment-wrapper .panel-body {
+    max-height:650px;
+    overflow:auto;
+}
+
+.comment-wrapper .media-list .media img {
+    width:64px;
+    height:64px;
+    border:2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+    border-bottom:1px dashed #efefef;
+    margin-bottom:25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.item {
+    width: 200px;
+    float: left;
+}
+.item img {
+    display: block;
+    width: 100%;
+}
+button {
+    font-size: 18px;
+}
+.container{
+    width:100%;
+}
+
+#image-holder {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 300px;
+  top: 200px; /* Or perhaps different coordinates */
+  display: none;
+}
+
+p {
+     width: 400px;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+
+@media only screen and (min-width: 768px){
+.p-for-post{
+	 width: 390px;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+	}
+}
+
+@media only screen and (max-width: 768px){ // for phone
+.p-for-post{
+	 width: 300px;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+	}
+}
+

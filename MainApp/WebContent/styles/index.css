@@ -1,0 +1,12 @@
+.item {
+    width: 200px;
+    float: left;
+}
+.item img {
+    display: block;
+    width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MainPartSharingPotentialHazardsSystem&apos; to &apos;MainApp&apos;" description="Rename resource &apos;MainPartSharingPotentialHazardsSystem&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MainPartSharingPotentialHazardsSystem" name="MainApp" stamp="1586972469438" updateReferences="true"/>
+</session>

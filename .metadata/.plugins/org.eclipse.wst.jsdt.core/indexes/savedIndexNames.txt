@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\djord\OneDrive\Desktop\Projektni IP\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+494037756.index
+3227945879.index
+4243568971.index
+3913392550.index
+3468436065.index
+3520971514.index
+786832034.index
+3420799905.index

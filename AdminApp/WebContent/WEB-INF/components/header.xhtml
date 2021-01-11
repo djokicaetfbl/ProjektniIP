@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3c.org/1999/xhtml"
+            xmlns:h="http://xmlns.jcp.org/jsf/html"
+            xmlns:p="http://primefaces.org/ui"
+            xmlns:f="http://java.sun.com/jsf/core"
+            xmlns:ui="http://java.sun.com/jsf/facelets">
+<head>
+</head>
+<body>
+	<ui:composition>
+	<h:form>
+	<p:panel id="basic" header="Monitoring system" style="margin-bottom:20px">
+	<f:facet name="header">
+	<i class="fa fa-fw fa-home fa-3x"></i>
+	<p:commandButton value="Logout" id="logOut" style="float: right; width:150px; height:50px;" icon="fa fa-fw fa-sign-out fa-3x" action="#{userBean.logout}" />
+	</f:facet>
+	<h:outputText value="Current user: " style="font-weight: bold;"></h:outputText>
+	<h:outputText value="${userBean.user.firstName} ${userBean.user.lastName} "></h:outputText>
+	</p:panel>
+	</h:form>	
+	</ui:composition>
+</body>
+</html>

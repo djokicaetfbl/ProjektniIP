@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(https://wallpaperaccess.com/full/1236480.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: new time roman;	
+}
+/*
+i{
+	font-size: 50px;
+	margin-top: 90px;
+	margin-left: 500px;
+	color: #3366ff;
+	border: 2px solid #3366ff;
+	padding: 30px;
+	border-radius: 1000px;
+}*/
+p{
+	font-size: 20px;
+	marign: 25px;
+	color: white;
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.label{
+	font-size 20px;
+	font-weight: bold;
+	color: #3333ff;
+}
+
+.form-control{
+	background: transparent;
+	boreder-radius: 0px;
+	color: white;
+	margin-bottom: 20px;
+	font-size: 20px;
+	height: 40px;
+}
+
+.col-md-6{
+	background: transparent;
+	box-shadow: 1px 10px 10px black;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.col-md-3{
+	background: transparent;
+	box-shadow: 1px 10px 10px black;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.userProfilePicture{
+	margin-left: 1px;
+	border: 2px solid #99004d;
+	width:  225px;
+	height: 150px;
+}
+
+.myAlert-top{
+    position: fixed;
+    top: 5px; 
+    left:2%;
+    width: 96%;
+}
+
+.myAlert-bottom{
+    position: fixed;
+    bottom: 5px;
+    left:2%;
+    width: 96%;
+}
+
+div.fullscreen {
+  position: absolute;
+  width:100%; 
+  height:960px; 
+  top: 0; 
+  left: 0; 
+  background-color: lightblue;
+}
+
+.alert{
+    display: none;
+}
+
+
+

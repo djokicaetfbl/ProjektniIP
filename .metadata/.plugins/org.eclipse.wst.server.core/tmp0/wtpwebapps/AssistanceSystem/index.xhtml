@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html xmlns="http://www.w3c.org/1999/xhtml"
+            xmlns:h="http://xmlns.jcp.org/jsf/html"
+            xmlns:p="http://primefaces.org/ui"
+            xmlns:f="http://java.sun.com/jsf/core"
+            xmlns:ui="http://java.sun.com/jsf/facelets">
+            
+    <h:head>
+    <link href="styles/login.css" type="text/css" rel="stylesheet"></link>
+     <title>Admin</title>
+    </h:head>  
+<ui:composition>
+<h:body>
+ 	<ui:composition template="/WEB-INF/template/template.xhtml">
+ 	    <ui:define name="header">
+        	<ui:include src="/WEB-INF/components/header.xhtml"></ui:include>
+    	</ui:define>
+    	<ui:define name="body"> 
+            <ui:include src="/WEB-INF/components/body.xhtml"></ui:include>
+        </ui:define>
+        <ui:define name="footer">
+        	<ui:include src="/WEB-INF/components/footer.xhtml"></ui:include>
+    	</ui:define> 
+ 	</ui:composition>
+</h:body>
+</ui:composition>
+</html>
